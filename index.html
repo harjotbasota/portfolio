@@ -1,0 +1,128 @@
+<HTML>
+    <HEAD>
+        <TITLE> HARJOT BASOTA</TITLE>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </HEAD>
+    <BODY>
+        <div class="header">
+            <p class="name"> Harjot Singh</p>
+            <a class="header-element" href="#Home">Home</a>
+            <a class="header-element" href="#About">About</a>
+            <a class="header-element" href="#Certifications">Certifications</a>
+            <a class="header-element" href="#Projects">Projects</a>
+            <a class="header-element" href="#Skills">Skills</a>
+            <a class="header-element" href="#Contact">Contact</a>
+        </div>
+        <div class="home-grid" id="Home">
+            <div class="hometext"> 
+                <p class="hometext-hello">Hello, I am </p>
+                <p class="hometext-name">Harjot Singh Basota </p>
+                <p class="hometext-line">A cloud and Devops enthusiast.<br> Welcome to my humble abode</p>
+            </div>
+            <button class="contactme" onclick="location.href='#Contact'">Contact Me</button>
+            <button class="github" onclick="location.href='https://github.com/harjotbasota'">Github</button>
+            <button class="linkedin" onclick="location.href='https://www.linkedin.com/in/harjotbasota/'">LinkedIn</button>
+            <button class="instagram" onclick="location.href='https://www.instagram.com/harjotbasota'">Instagram</button>
+            <img class="mypic" src="harjot.jpeg">
+        </div>
+        <div class="about" id="About">
+            <p class="about-header"> ABOUT ME</p>
+            <p class="about-des">
+                I'm Harjot, a skilled Cloud and DevOps engineer with a passion for building robust and scalable infrastructure. I am Computer Science graduate and have PG Diploma in Cloud Computing. With my expertise in AWS, Azure, and GCP, I can design, deploy, and manage cloud environments that meet the demands of modern applications.
+                As an AWS Certified SysOps Associate and Terraform Associate, I excel at automating tasks and optimizing cloud resources. I love working with Bash shell scripting and Python to streamline processes and ensure efficient operations.
+                When it comes to architectures design, I have a keen eye for creating architectures that are reliable, scalable, and cost-effective. I'm well-versed in implementing infrastructure as code using tools like Ansible and Terraform, enabling teams to deploy applications with ease.
+                In the world of CI/CD, I'm experienced With Jenkins's powerful automation capabilities, I can set up efficient pipelines that enable continuous integration and deployment.
+                I'm always eager to take on new challenges and collaborate with teams to drive innovation and deliver high-quality solutions. Let's connect and explore how we can work together to achieve great things!</p>
+        </div>
+        <div class="certifications" id="Certifications">
+            <p class="certifications-header">CERTIFICATIONS</p>
+            <img class="certification-img1" src="sysops.png">
+            <img class="certification-img2" src="terraform.png">
+        </div>
+        <div class="projects" id="Projects">
+              <p class="projects-header">PROJECTS</p>
+              <div class="InventoryManagement">
+                   <h1> Inventory Management System</h1>
+                   <p> The Inventory Management Application is a powerful solution designed to centralize and streamline large inventories. Deployed on Amazon Web Services (AWS), it adheres to a serverless architecture, ensuring scalability and cost-effectiveness. Leveraging key services such as AWS Lambda for business logic, Amazon RDS (MySQL) for data storage, Amazon API Gateway for secure API exposure, Amazon Cognito for user authentication, and Amazon S3 for static asset storage, the application efficiently manages inventory items. Infrastructure provisioning is handled seamlessly using Terraform. Additionally, an EC2 bastion host facilitates secure access to the RDS database
+                   </p>
+                   <h3> Tech Stack</h3>
+                   <p> AWS S3 ,
+                    AWS lambda ,
+                     AWS API gateway (REST API) ,
+                     AWS Cognito ,
+                     Python ,
+                     AWS EC2 (Bastion Host) ,
+                     Shell Scripting ,
+                     Terraform</p>
+                     <button class="button1" onclick="location.href='https://github.com/harjotbasota/InventoryManagementSystem'">Github</button>
+                     <button class="button1" onclick="location.href='Inventory Management System.pdf'">Documentation</button>
+              </div>
+              <img id="inv-arc" src="inv arch.png"> 
+              <div class="CollegeWebsite">
+                <h1> College Website</h1>
+                <p> The development of a dynamic College Website was carried using a robust tech stack comprising Django, HTML, and CSS. To ensure optimal performance and scalability, we leveraged AWS infrastructure, employing an autoscaling group with a load balancer to handle traffic efficiently. Our database is securely housed within a private subnet, aligning with industry best practices for data protection.
+                    The deployment process was streamlined using Terraform, guaranteeing consistency and reliability across our infrastructure. Ansible playbooks were instrumental in provisioning, maintaining, and configuring our systems, enabling seamless management. Additionally, we implemented a series of shell scripts to automate repetitive tasks, enhancing efficiency and reducing manual intervention.
+                    
+                </p>
+                <h3> Tech Stack</h3>
+                   <p> Ubuntu 22.04.4 LTS
+                    , Django (Version 3.0)
+                    , Ansible (Version 2.10.8)
+                    , Terraform (Version 1.8..3)
+                    , Boto3
+                    , AWS VPC 
+                    , AWS EC2
+                    , AWS Secrets Manager
+                    , AWS RDS (Postgres)
+                    , AWS AMI
+                    , AWS Auto Scaling
+                    , AWS Application Load Balancer
+                    ,Shell Scripting
+                    </p>
+                    <button class="button2" onclick="location.href='https://github.com/harjotbasota/Project_CollegeWebsite'">Github</button>
+                    <button class="button2" onclick="location.href='Project_CollegeWebsite.pdf'">Documentation</button>
+           </div>
+           <img id="college-arc" src="college arch.png">          
+        </div>
+        <div class="skills" id="Skills">
+            <p>Skills</p>
+            <ul class="skills-list">
+                <li> AWS</li>
+                <li> Azure</li>
+                <li> GCP</li>
+                <li> Terraform</li>
+                <li> Jenkins</li>
+                <li> CI/CD</li>
+                <li> Ansible</li>
+                <li> Python</li>
+                <li> Django</li>
+                <li> Linux Administration </li>
+                <li> Shell scripting(Bash)</li>
+                <li> Docker</li>
+                <li> Git & Github</li>
+                <li> HTML/CSS</li>
+                <li> Architecture</li>
+                <li> Virtualization</li>
+            </ul>
+        </div>
+        <div class="contact" id="Contact">
+            <p> CONTACT ME</p>
+        <ul>
+            <li>
+                <a href="mailto:harjotsinghbasota@gmail.com" class="fa fa-envelope"> harjotsinghbasota@gmail.com</a>
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/harjotbasota/" class="fa fa-linkedin"> linkedin.com/in/harjotbasota</a>
+            </li>
+            <li>
+                <a href="tel:+14375992167" class="fa fa-phone"> +1 (437) 599-2167</a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/harjotbasota" class="fa fa-instagram"> instagram.com/harjotbasota</a>
+            </li>
+        </ul>
+        </div>
+        
+    </BODY>
+</HTML>
